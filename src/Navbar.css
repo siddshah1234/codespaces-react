@@ -1,0 +1,98 @@
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50; /* Dark blue background for navbar */
+  color: #fff;
+  padding: 1rem 10%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left .logo {
+  font-size: 1.8rem; /* Slightly larger logo */
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-left .logo:hover {
+  color: #f4c10f; /* Highlight logo on hover */
+}
+
+.navbar-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-center .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-center .nav-links li {
+  margin-right: 2rem; /* Increased spacing between links */
+}
+
+.navbar-center .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem; /* Slightly larger font size */
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.navbar-center .nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #f4c10f; /* Underline effect */
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.navbar-center .nav-links a:hover {
+  color: #f4c10f; /* Highlight link on hover */
+}
+
+.navbar-center .nav-links a:hover::after {
+  width: 100%; /* Expand underline on hover */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right .donate-btn {
+  background-color: #f4c10f;
+  color: #2c3e50; /* Dark blue text for contrast */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-right .donate-btn:hover {
+  background-color: #e0b10e; /* Darker yellow on hover */
+}

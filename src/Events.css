@@ -1,0 +1,32 @@
+/* Global Styles */
+.events-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfe8ef; /* Light blue background */
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Events Section */
+  .events-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Takes most of the screen */
+    width: 100%;
+  }
+  
+  .events-box {
+    background-color: #3674b5; /* Dark blue */
+    color: #fff;
+    padding: 3rem 5rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .events-box h1 {
+    font-size: 2.5rem;
+  }
+  

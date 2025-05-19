@@ -1,0 +1,27 @@
+HHHHome:
+
+
+Hero section: MorrisCode Inspiring The Future title ahead of a picture of the website
+Learn More Button still in the hero section
+
+Previous workshops section below hero section
+
+Then donate section
+
+Then Team at the bottom with contact information
+
+HHHAbout Us
+
+show some pictures at the top
+
+yap up some essay about like how it got discovered
+
+HHHEvents
+
+A timeline kind of thing would be cool if you can drag to change the timelien
+
+HHHFundraisers
+
+
+
+HHHContact Us

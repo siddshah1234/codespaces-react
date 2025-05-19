@@ -1,0 +1,193 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #dfe8ef; /* Light blue background for the page */
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 10%;
+  background-color: #3674b5; /* Dark blue background for hero section */
+  width: 100%;
+  box-sizing: border-box;
+  color: #fff; /* White text for contrast */
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #dfe8ef; /* Light blue text for contrast */
+}
+
+.hero-content .learn-more-btn {
+  background-color: #578fca; /* Medium blue for buttons */
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-content .learn-more-btn:hover {
+  background-color: #3674b5; /* Darker blue on hover */
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Workshops Section */
+.workshops-section {
+  padding: 4rem 10%;
+  background-color: #dfe8ef; /* Light blue background for workshops section */
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.workshops-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #093f79; /* Dark blue for headings */
+}
+
+.workshop-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.workshop-card {
+  background-color: #fff; /* White background for workshop cards */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+}
+
+.workshop-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #093f79; /* Dark blue for headings */
+}
+
+.workshop-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.workshop-link-btn {
+  background-color: #578fca; /* Medium blue for buttons */
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.workshop-link-btn:hover {
+  background-color: #3674b5; /* Darker blue on hover */
+}
+
+.nav-button {
+  background-color: #578fca; /* Medium blue for buttons */
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #3674b5; /* Darker blue on hover */
+}
+
+/* Contribute Section */
+.contribute-section {
+  padding: 4rem 10%;
+  background-color: #fff; /* White background for contribute section */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contribute-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #3674b5; /* Dark blue for headings */
+  text-align: center;
+}
+
+.contribute-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.contribute-item {
+  background-color: #dfe8ef; /* Light blue background for cards */
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.contribute-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #3674b5; /* Dark blue for headings */
+}
+
+.contribute-item p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.contribute-item .donate-btn,
+.contribute-item .volunteer-btn {
+  background-color: #578fca; /* Medium blue for buttons */
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contribute-item .donate-btn:hover,
+.contribute-item .volunteer-btn:hover {
+  background-color: #3674b5; /* Darker blue on hover */
+}
